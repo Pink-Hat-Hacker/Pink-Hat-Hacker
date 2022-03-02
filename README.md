@@ -1,6 +1,6 @@
 ### PINK-HAT-HACKER's Github
 
-[![PHH's GitHub stats](https://github-readme-stats.vercel.app/api?username=Pink-Hat-Hacker&count_private=true&theme=gotham)](https://github.com/anuraghazra/github-readme-stats)
+![PHH's GitHub stats](https://github-readme-stats.vercel.app/api?username=Pink-Hat-Hacker&count_private=true&theme=gotham)
 
 #### Languages I am learning or know:
 
@@ -15,6 +15,7 @@
 9. HTML
 10. CSS
 11. Javascript
+12. Typescript
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Pink-Hat-Hacker&layout=compact&theme=gotham)](https://github.com/anuraghazra/github-readme-stats)
 
