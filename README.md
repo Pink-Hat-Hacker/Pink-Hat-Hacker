@@ -1,6 +1,6 @@
 ### PINK-HAT-HACKER's Github
 
-[![PHH's GitHub stats](https://github-readme-stats.vercel.app/api?username=pink-hat-hacker)](https://github.com/anuraghazra/github-readme-stats)
+[![PHH's GitHub stats](https://github-readme-stats.vercel.app/api?username=Pink-Hat-Hacker&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
 
 #### Languages I am learning or know:
 
