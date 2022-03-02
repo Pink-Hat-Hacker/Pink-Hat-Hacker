@@ -1,6 +1,6 @@
 ### PINK-HAT-HACKER's Github
 
-[![PHH's GitHub stats](https://github-readme-stats.vercel.app/api?username=Pink-Hat-Hacker&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
+[![PHH's GitHub stats](https://github-readme-stats.vercel.app/api?username=Pink-Hat-Hacker&count_private=true&theme=gotham)](https://github.com/anuraghazra/github-readme-stats)
 
 #### Languages I am learning or know:
 
@@ -15,6 +15,8 @@
 9. HTML
 10. CSS
 11. Javascript
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Pink-Hat-Hacker&layout=compact&theme=gotham)](https://github.com/anuraghazra/github-readme-stats)
 
 **I am looking to increase my coding scope so hit me up! I'm also into computational art **
 
