@@ -22,7 +22,7 @@
 **I am looking to increase my coding scope so hit me up! I'm also into computational art **
 
 - 🔭 I’m currently working on: [recent repository](https://github.com/pink-hat-hacker?tab=repositories)
-- 🌱 I’m currently learning: Machine Organization and Assembly Language & Data Structures
+- 🌱 I’m currently learning: Software Engineering using Typescript and React, Algorithms, and Educational Game Development
 - 👯 I’m looking to collaborate on: anything cool
 - 📫 How to reach me: zyv@udel.edu
 - 😄 Pronouns: she/her/they
