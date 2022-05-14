@@ -1,6 +1,7 @@
 ### PINK-HAT-HACKER's Github
 
-![PHH's GitHub stats](https://github-readme-stats.vercel.app/api?username=Pink-Hat-Hacker&count_private=true&theme=gotham)
+| ![PHH's GitHub stats](https://github-readme-stats.vercel.app/api?username=Pink-Hat-Hacker&count_private=true&theme=gotham) | [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Pink-Hat-Hacker&layout=compact&theme=gotham)](https://github.com/anuraghazra/github-readme-stats) |
+| ------------------ | ------------------ |
 
 #### Languages I am learning or know:
 
@@ -17,9 +18,9 @@
 11. Javascript
 12. Typescript
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Pink-Hat-Hacker&layout=compact&theme=gotham)](https://github.com/anuraghazra/github-readme-stats)
 
-**I am looking to increase my coding scope so hit me up! I'm also into computational art **
+
+**I am looking to increase my coding scope so hit me up! I'm also into computational art**
 
 - 🔭 I’m currently working on: [recent repository](https://github.com/pink-hat-hacker?tab=repositories)
 - 🌱 I’m currently learning: Software Engineering using Typescript and React, Algorithms, and Educational Game Development
