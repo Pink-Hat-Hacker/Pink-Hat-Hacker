@@ -1,5 +1,9 @@
 <div align="center">
-  <h1 align="center">Hi, I'm Pink-Hat-Hacker</h1>
+  
+  <h1 align="center">
+    <img class="yoyo" width=50 height=50 src="https://github.com/Pink-Hat-Hacker/Pink-Hat-Hacker/blob/911633c6423dc89a3c0b74d21f3526969729b126/yoyo.png" alt='pph yoyo logo' />
+     Hi, I'm Pink-Hat-Hacker
+  </h1>
   <h4 align="center">a computer science student at the University of Delaware  <img width="40" src="https://content.sportslogos.net/logos/31/657/full/delaware_blue_hens_logo_mascot_19997466.png"></h4>
 </div>
 
