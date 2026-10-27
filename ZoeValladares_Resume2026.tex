@@ -1,0 +1,116 @@
+%-------------------------
+% Resume in LaTeX - Zoë Y. Valladares - HS 2019
+%-------------------------
+
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.6in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\raggedbottom
+
+% ---------- Section formatting ----------
+\titleformat{\section}{\large\scshape\bfseries}{}{0em}{}[\vspace{-2pt}\titlerule]
+\titlespacing*{\section}{0pt}{8pt}{5pt}
+
+% ---------- Bullet list formatting ----------
+\setlist[itemize]{leftmargin=0.2in, itemsep=1pt, topsep=2pt, parsep=0pt, label=\textbullet}
+
+% ---------- Custom commands ----------
+% \entry{Bold left}{Right (location)}{Italic left}{Italic right (date)}
+\newcommand{\entry}[4]{%
+  \vspace{2pt}
+  \noindent\textbf{#1} \hfill #2 \\
+  \noindent\textit{#3} \hfill \textit{#4}\par
+  \vspace{-2pt}
+}
+
+% \simpleentry{Bold left}{Right}  (for one-line headings)
+\newcommand{\simpleentry}[2]{%
+  \vspace{2pt}
+  \noindent\textbf{#1} \hfill \textit{#2}\par
+  \vspace{-2pt}
+}
+
+\begin{document}
+
+%----------- HEADER -----------
+\begin{center}
+  {\Huge \scshape Zoë Y. Valladares} \\[4pt]
+  Washington, DC $\;\bullet\;$
+  \href{mailto:zvalladares@wlapcs.org}{zvalladares@wlapcs.org} $\;\bullet\;$ 202-286-1276
+\end{center}
+
+%----------- EDUCATION -----------
+\section{Education}
+
+\entry{Washington Leadership Academy PCS}{Washington, DC}
+      {4.45 GPA (3.9 unweighted)}{Fall 2016 - Spring 2020}
+\begin{itemize}
+  \item[] \textit{Relevant Coursework + Clubs:} 
+    \item As a Senior: AP Computer Science A, AP Calculus AB, AP Literature, AP Research
+    \item As a Junior: AP Seminar [5], AP English Language [4], AP US History [3]
+    \item As a Sophomore: AP World History [4], AP Computer Science Principles [4], Competency-Based English
+    \item Virtual Reality Elective \& Founder of WLAPCS Bike Club \& Founder of WLAPCS Soccer Club
+\end{itemize}
+
+%----------- EXPERIENCE -----------
+\section{Experience}
+
+\entry{Harvard Secondary Summer Program}{Cambridge, MA}
+      {Intensive Introduction to CS and Java Programming}{Summer 2019}
+\entry{ARTLAB+ Hirshhorn}{Washington, DC}
+      {Develop an art piece on “Womanhood”, Smithsonian Hirshhorn}{2018 - 2019}
+\entry{STEMShip Summer Internship Program}{Washington, DC}
+      {Besson Lab Assistant, George Washington University}{Summer 2018}
+\entry{Girls Who Code}{Washington, DC}
+      {Project Manager}{2017 - 2018}
+\entry{CompSciConnect}{College Park, MD}
+      {Teaching Assistant, University of Maryland}{2017 - Present}
+\entry{GEMS Army Research Lab}{MD}
+      {U.S. Army STEM Education Outreach Program}{August 2017}
+
+%----------- SKILLS -----------
+\section{Skills}
+
+\textbf{Technical:} 
+\begin{itemize}
+  \item Proficient in Google Docs, Word, Sheets/Excel \& Google Slides.
+  \item Coded multiple websites using HTML, CSS, JavaScript, and TypeScript.
+  \item Proficient with Virtual Reality software and code.
+  \item 3D Design and printing.
+  \item Build Computers from scratch.
+  \item Proficient in Adobe software(s).
+\end{itemize}
+\textbf{Language:} Spanish
+
+%----------- RELEVANT ACCOMPLISHMENTS -----------
+\section{Relevant Accomplishments}
+\textbf{Extracurricular:} 
+\begin{itemize}
+  \item DC Stoddert Soccer
+  \item WLA Bike Club -- Christmas bike donation to needy children, partnered with NCCF
+  \item STEMLY Scholarship Program Awardee
+  \item Food \& Friends Volunteer work
+  \item Design Apprenticeship Program student
+  \item World Affairs Council
+  \item Virtual Reality Elective
+  \item CompSciConnect program
+\end{itemize}
+
+\section{Academic Awards}
+\begin{itemize}
+  \item National Honors Society President 2018-2019: For High Academic Achievement and Behavioral Excellence
+  \item Honor Roll Award 2017-2019: For High Academic Achievement, Washington Leadership Academy
+  \item Summa Cum Laude Award School Year 16-19: For a GPA above 3.9 with Washington Leadership Academy
+  \item President’s Education Awards Program June 2016: In recognition of Outstanding Academic Achievement
+\end{itemize}
+
+\end{document}
