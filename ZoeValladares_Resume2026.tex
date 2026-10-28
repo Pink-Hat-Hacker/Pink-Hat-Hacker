@@ -1,0 +1,120 @@
+%-------------------------
+% Resume in LaTeX - Zoë Y. Valladares - 2026
+%-------------------------
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\raggedbottom
+
+% ---------- Section formatting ----------
+\titleformat{\section}{\large\scshape\bfseries}{}{0em}{}[\vspace{-2pt}\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% ---------- Bullet list formatting ----------
+\setlist[itemize]{leftmargin=0.2in, itemsep=1pt, topsep=2pt, parsep=0pt, label=\textbullet}
+
+% ---------- Custom commands ----------
+% \entry{Bold left}{Right (location)}{Italic left}{Italic right (date)}
+\newcommand{\entry}[4]{%
+  \vspace{2pt}
+  \noindent\textbf{#1} \hfill #2 \\
+  \noindent\textit{#3} \hfill \textit{#4}\par
+  \vspace{-2pt}
+}
+
+% \simpleentry{Bold left}{Right}  (for one-line headings)
+\newcommand{\simpleentry}[2]{%
+  \vspace{2pt}
+  \noindent\textbf{#1} \hfill \textit{#2}\par
+  \vspace{-2pt}
+}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=cyan
+}
+
+\begin{document}
+
+%----------- HEADER -----------
+\begin{center}
+  {\Huge \scshape Zoë Y. Valladares} \\[1pt]
+  Durham, NC $\;\bullet\;$ Washington, DC $\;\bullet\;$
+  \href{mailto:zyv@duke.edu}{zyv@duke.edu} $\;\bullet\;$ 
+  202-286-1276 $\;\bullet\;$ \href{https://www.linkedin.com/in/zoe-yoyo-valladares/}{LinkedIn} $\;\bullet\;$ \href{https://zoevalladares.com}{Portfolio}
+\end{center}
+
+%----------- EDUCATION -----------
+\section{Education}
+
+\entry{Duke University, Pratt School of Engineering}{Durham, NC}
+      {Master of Engineering, Design \& Technology Innovation}{Spring 2027}
+      \begin{itemize}
+        \item[] \textit{Relevant Coursework:} Design Climate I \& II Fellowship, Applying Machine Learning to Advance Cybersecurity, Continuum Robotics
+      \end{itemize}
+
+\entry{University of Delaware, College of Engineering}{Newark, DE}
+      {Bachelor in Computer Science}{May 2024}
+      \begin{itemize}
+        \item[] \textit{Relevant Coursework:} Data Structures \& Algorithms, Software Engineering, Operating Systems, Web App Security, Cloud Cryptography, Game Development
+      \end{itemize}
+
+%----------- EXPERIENCE -----------
+\section{Experience}
+
+\entry{Markham LLC}{Washington, DC}
+      {API, Automation, \& AI Integration}{Sep 2024 - Present}
+      \begin{itemize}
+        \item Took initiative as an intern to eliminate manual workflows by developing an RPA solution with Raspberry Pi, Robomotion, and Quickbase Pipelines --- automating multiple processes that saved the team time.
+        \item Transitioned to a contractor role to design and implement scalable solutions using API and AI tools, improving data accuracy, accelerating cross-platform updates to real-time, and managing new Ops Tech interns.
+      \end{itemize}
+
+\entry{Anne Arundel Community College}{Anne Arundel, MD}
+      {Volunteer Maker Space Manager}{Aug 2023 - July 2025}
+      \begin{itemize}
+        \item Maintained and calibrated 3D printers, CNC routers, and a CNC plasma cutter to ensure safe, reliable maker space operations for multiple cohorts.
+        \item Authored a comprehensive maker space guidebook after hands-on testing and research, standardizing usage for new students, reducing troubleshooting for professors, and outlining equipment necessities for staff.
+      \end{itemize}
+
+\entry{M\&T Bank}{Wilmington, DE}
+      {Software Engineering Intern}{May 2023 - Sep 2023}
+      \begin{itemize}
+        \item Spearheaded the implementation of Power BI dashboards to improve data visibility for the Data Pirates team, accelerating decision-making for the client.
+        \item Developed and optimized automation tools in C\#, .NET, and SQL under Agile \& Scrum guidance, increasing process efficiency.
+      \end{itemize}
+
+%----------- LEADERSHIP & ACTIVITIES & PROJECTS -----------
+\section{Leadership \& Activities \& Project Experience}
+
+\simpleentry{Keep Me Initiative, Duke University}{Nov 2025 - Present}
+      \begin{itemize}
+        \item[] \textit{Co-Founder of Campus-level Material Circularity Initiative, Independent Study}, \$25k+ grant funding, 2026-2027. Conducting research on best practices for material reuse and recycling, and developing a comprehensive plan for implementation.
+      \end{itemize}
+
+\simpleentry{Design Climate I \& II, Duke University}{Fall 2025 - Spring 2026}
+      \begin{itemize}
+        \item Identification of need, market, and value proposition for Low-Carbon Cement for Thermal Batteries. Converged into a climate tech solution that implements machine learning to design optimized concrete mixes. Won 3rd place in Duke's 2025 AI hackathon with prototype \href{https://devpost.com/software/climacrete-systems}{Climacrete}.
+      \end{itemize}
+
+\simpleentry{MT Lab, University of Delaware}{Aug 2022 - Dec 2022}
+      \begin{itemize}
+        \item Development of tracking software for microrobots; biomedical applications. Providing the client with control of different parameters and adding an option to change the contrast of the video to aid the tracker in ``finding'' the blurred microrobot as they move on the z-axis.
+      \end{itemize}
+
+%----------- SKILLS -----------
+\section{Skills}
+
+\textbf{Technical:} Python, JavaScript, Typescript, C++, C\#, Processing, SQL, Jinja, Firebase, MongoDB, QuickBase/Pipelines, Zapier, RPA, Power BI, CAD/CAM, CNC \\[2pt]
+\textbf{Language:} Spanish
+
+\end{document}
